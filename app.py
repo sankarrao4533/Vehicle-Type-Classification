@@ -405,7 +405,7 @@ left_column, right_column = st.columns([1.05, 0.95], gap="large")
 
 with left_column:
     st.markdown('<div class="section-label">Input image</div>', unsafe_allow_html=True)
-    st.image(selected_image, use_column_width=True, caption=image_name)
+    st.image(selected_image, caption=image_name)
 
 with right_column:
     st.markdown('<div class="section-label">Predicted vehicle type</div>', unsafe_allow_html=True)
